@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rajesh">
+  <test name="Practise1">
+    <classes>
+      <class name="TestNgPractise.XmlPractise">
+      <methods>
+      <include name="OpenSource"></include>
+      <include name="Facebook"></include>
+      </methods>
+      </class>  
+    </classes>
+  </test> 
+  <test name="Practise">
+    <classes>
+      <class name="TestNgPractise.XmlPractise">
+      <methods>
+      <include name="Insta"></include>
+      <include name="Whatsapp"></include>
+      </methods>
+      </class>  
+    </classes>
+  </test> 
+</suite> 

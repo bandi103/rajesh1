@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test1" enabled="false">
+	<parameter name="broswer" value="edge"></parameter>
+		<classes>
+			<class name="TestNgPractise.Parameters">
+				<methods>
+					<include name="sauceDemo"></include>
+					
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+	<test name="Test2">
+		<classes>
+			<class name="TestNgPractise.Parameters">
+				<methods>
+					
+					<include name="ckeck"></include>
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+	<test name="Test3">
+		<classes>
+			<class name="TestNgPractise.Parameters">
+				<methods>
+					<include name="address"></include>
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+</suite>
